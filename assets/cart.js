@@ -5,9 +5,9 @@ class CartRemoveButton extends HTMLElement {
     this.addEventListener('click', (event) => {
       event.preventDefault();
       const cartItems = this.closest('cart-items') || this.closest('cart-drawer-items');
-      cartItems.updateQuantity(this.dataset.index, 0);
+      cartItems.updateQuantity(this.dataset.index, 0); 
     });
-  }
+  } 
 }
 
 customElements.define('cart-remove-button', CartRemoveButton);
