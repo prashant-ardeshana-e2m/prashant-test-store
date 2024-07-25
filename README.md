@@ -17,7 +17,7 @@ Ensure you have the required software versions by checking:
 ```bash
 npm -v
 node -v
-shopify -v
+shopify vversion
 ```
 
 ### Step 3: Install Tailwind CSS and PostCSS
